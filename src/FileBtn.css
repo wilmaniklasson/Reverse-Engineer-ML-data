@@ -1,0 +1,136 @@
+
+.row-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1em;
+    margin-top: 2em;
+}
+
+
+
+.fil-btn-container {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: center;
+    gap: 1em;
+    padding: 1.2em;
+    background-color: #f4f4f9;
+    border-radius: 0.5em;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    font-size: 1em;
+    width: 400px;
+    margin: 0 auto; 
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 0.5em; 
+    padding: 1em;
+}
+
+section h3 {
+    margin: 0;
+    font-size: 1.2em;
+    color: #333;
+}
+
+section input[type="file"] {
+    padding: 0.5em;
+    border: 1px solid #ccc;
+    border-radius: 0.3em;
+    font-size: 0.9em;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+section label {
+    font-size: 1em;
+    color: #555;
+}
+
+.reverse-engineer-btn {
+    align-self: center;
+    background-color: #646cff;
+    color: #fff;
+    border: none;
+    border-radius: 0.3em;
+    padding: 0.6em 1.2em;
+    font-size: 1em;
+    cursor: pointer;
+    width: 200px;
+    transition: background-color 0.3s ease;
+}
+
+.reverse-engineer-btn:hover {
+    background-color: #4a56d7; 
+}
+
+.result-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1em;
+    gap: 1em;
+}
+
+.result-container img {
+    max-width: 100%; 
+    max-height: 500px;
+    border: 1px solid #ccc;
+    border-radius: 0.3em;
+    object-fit: cover;
+}
+
+.error-message {
+    color: #ff4d4d;
+    font-size: 0.9em;
+    margin-top: 0.5em;
+    text-align: center;
+}
+.label {
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #333;
+}
+
+
+
+
+
+  
+  /* Styling för rullgardinsmenyn */
+  select {
+    font-size: 16px;
+    padding: 10px;
+    border: 1px solid #007bff;
+    border-radius: 5px;
+    background-color: #f8f9fa;
+    color: #333;
+    cursor: pointer;
+  }
+  
+  /* Styling för fokus */
+  select:focus {
+    border-color: #0056b3;
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+  }
+  
+  /* För hover-effekt */
+  select:hover {
+    background-color: #e9ecef;
+  }
+  
+  /* Styling för alternativ i dropdown */
+  option {
+    background-color: #ffffff;
+    color: #333;
+    padding: 10px;
+    font-size: 16px;
+  }
+  
